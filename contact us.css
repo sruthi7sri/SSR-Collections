@@ -1,0 +1,70 @@
+
+
+#cover {
+    background: #222 url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#cover-caption {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+
+/* .contactform{
+	align-items: center;
+	width: 1100px;
+	height: 2000px;
+	height: 100%;
+	background-color: beige; 
+	text-align: center; 
+}
+
+form{
+	background-color: white;
+} */
+
+/* h1 {
+	color : #000000;
+	text-align : center;
+	font-family: "SIMPSON";
+}
+form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+form, .container{
+	background-color: aqua;
+} */
+
+body {
+	/* background-color :  rgb(151, 18, 18);
+	background: url(contactus1.jpg);
+	margin: 0;
+	padding: 0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover; */
+	background-color: #e0dcdc;
+}
